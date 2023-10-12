@@ -1,0 +1,41 @@
+.Update {
+    display: flex;
+    width: 83%;
+    align-items: center;
+  }
+  
+  .Update button {
+    margin-left: 15px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: green;
+    font-weight: 600;
+    font-size: large;
+    /* background: #000; */
+  }
+  
+  /* Notes */
+  
+  .Notes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Notes |-- Note */
+  
+  .Note {
+    max-width: 250px;
+    padding: 50px;
+    border: 1px solid #fff;
+    margin: 30px 15px;
+    position: relative;
+  }
+  
+  .Note button {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -12px;
+  }

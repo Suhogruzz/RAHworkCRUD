@@ -1,0 +1,9 @@
+.Form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Form button{
+    padding: 5px;
+    margin: 5px;
+  }
