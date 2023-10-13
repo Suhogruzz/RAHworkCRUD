@@ -1,4 +1,3 @@
-import React from 'react';
 import './Note.css';
 import axios from 'axios';
 
@@ -20,4 +19,4 @@ export default function Note({ notes, onChange }) {
       )}
     </div>
   )
-};
+}

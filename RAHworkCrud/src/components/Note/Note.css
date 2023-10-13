@@ -2,34 +2,31 @@
     display: flex;
     width: 83%;
     align-items: center;
+    margin-left: 15%;
   }
   
   .Update button {
-    margin-left: 15px;
+    margin-left: 2%;
     border-radius: 50%;
     height: 35px;
     width: 35px;
     color: green;
     font-weight: 600;
     font-size: large;
-    /* background: #000; */
   }
-  
-  /* Notes */
   
   .Notes {
     display: flex;
     flex-wrap: wrap;
   }
   
-  /* Notes |-- Note */
-  
   .Note {
     max-width: 250px;
     padding: 50px;
-    border: 1px solid #fff;
+    border: 2px solid #000000;
     margin: 30px 15px;
     position: relative;
+    background-color: #fff8cb;
   }
   
   .Note button {

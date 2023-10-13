@@ -1,4 +1,3 @@
-import React from 'react';
 import axios from 'axios';
 
 const URL = import.meta.env.VITE_NOTES_URL;
@@ -12,4 +11,4 @@ export default function Update({ title, onClick }) {
       <button onClick={updateNote}>⭮</button>
     </div>
   )
-};
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Form.css';
 import axios from 'axios';
 const URL = import.meta.env.VITE_NOTES_URL
@@ -31,4 +31,4 @@ export default function Form({ className, textarea, button, onSubmit }) {
       { button && <button type="submit">Добавить</button> }
     </form>
   )
-};
+}
